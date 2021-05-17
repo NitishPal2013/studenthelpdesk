@@ -1,0 +1,9 @@
+#contain_math{
+text-align: center;
+}
+
+.containermath{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+}

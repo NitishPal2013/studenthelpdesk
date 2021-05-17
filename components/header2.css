@@ -1,0 +1,133 @@
+.title{
+    font-size: 2.5vw;
+    font-family: original surfer;
+}
+
+.name{
+    margin: 1vh 0;
+}
+
+.social{
+    float: right;
+}
+
+
+#l1{
+    color: red;
+}
+
+#l2{
+    color:green;
+}
+
+#l3{
+    color: blue;
+}
+
+#l4{
+    color: orange;
+}
+
+#l5{
+    color: red;
+}
+
+#l6{
+    color: green;
+}
+
+#l7{
+    color: blue;
+}
+
+#l8{
+    color: orange;
+}
+
+#l9{
+    color: red;
+}
+
+#l10{
+    color: green
+}
+
+#l11{
+    color: blue;
+}
+
+#l12{
+    color: orange;
+}
+
+#l13{
+    color: red;
+}
+
+
+@keyframes onhover{
+    from{
+        font-size: 3vw;
+    }
+    to{
+        font-size: 3.1vw;
+        /* transform: scaleY(1); */
+        color: black;
+    }
+}
+
+.title:hover{
+    animation-name: onhover;
+    animation-duration: 1s;
+    animation-direction: alternate-reverse;
+}
+
+#navigation{
+    display: flex;
+    flex-direction:column;
+}
+
+.container2 a{
+    text-decoration:none;
+    color: rgb(122, 121, 121);
+    padding: 0 34px;
+    margin: 0 10px;
+    padding-bottom: 2.5vh;
+    font-size: 2vw;
+    font-family: Roboto,Arial,Helvetica,sans-serif;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav:hover{
+    font-weight: 900;
+    background-color: rgba(128, 128, 128, 0.247);
+    color: black;
+}
+
+.social{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 40px;
+}
+
+
+@media screen and (max-width: 600px){
+    .title{
+        font-size: 5.5vw;
+    }
+
+    #navigation{
+        flex-direction: column;
+        justify-content: right;
+    }
+
+    .container2 a{
+        font-size: 3.3vw;
+        padding-bottom:1.5vh;
+    }
+}

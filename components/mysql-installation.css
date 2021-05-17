@@ -1,0 +1,123 @@
+/* ul li{
+    list-style: none;
+}
+
+.card{
+    width: 350px;
+    height: 242px;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 12px;
+    text-align: justify;
+}
+
+h4{
+    text-align: center;
+    margin-bottom: 34px;
+}
+
+.contents{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contents img{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 16px;
+    padding: 2px;
+}
+
+#content2{
+    margin: 20px 0;
+}
+
+#content2head{
+    text-align: center;
+}
+
+.win_install {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.win_install img{
+    border: 2px solid black;
+    border-radius: 16px;
+}
+
+.divimg{
+    margin: 40px 0;
+    display: grid;
+    grid-template-columns: 480px 1fr;
+    border-bottom: 2px solid black;
+    align-items: center;
+    background-color: white;
+    text-align: center;
+}
+
+.divimg img{
+    border: 2px solid grey;
+}
+
+.divimg img:hover{
+    transform: scale(1.2);
+}
+
+.process{
+    padding: 20px 0 0 0 ;
+}
+@media screen and (max-width: 720px){
+    .contents{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .contents img{
+        width: 75%;
+        height: auto;
+        margin: 0 auto 24px auto;
+    }
+
+    .introduction{
+        margin: auto;
+    }
+    .card{
+        width: 80%;
+        height: auto;
+    }
+
+    .win_install {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .divimg{
+        margin: 40px 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .adjust{
+        width: 100vw;
+        height: auto;
+    }
+} */
+
+
+.content{
+    /* text-align:center; */
+    margin: 5px;
+    background-color: azure;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* .contain{
+    display: flex;
+    justify-content: center;
+} */
