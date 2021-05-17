@@ -1,0 +1,37 @@
+footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    position:relative;
+    left: 0%;
+    bottom: 0;
+}
+
+
+.face{
+    width: 16px;
+    height: 16px;
+    background-image: url(./facebook.png);
+    display: inline-block;
+    margin: 0 4px;
+}
+
+.insta{
+    width: 16px;
+    height: 16px;
+    background-image: url(./instagram.png);
+    display: inline-block;
+    margin: 0 4px;
+}
+.media{
+    align-items: flex-end;
+}
+
+#copyright{
+    padding: 3px;
+}
