@@ -1,3 +1,3 @@
 # studenthelpdesk
 
-This project is the vision to provide the knowlwdge from a student to a student.
+This project is the vision to provide the knowledge from a student to a student.
